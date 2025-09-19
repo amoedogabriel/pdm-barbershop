@@ -1,5 +1,4 @@
-package com.ifam.app01
-
+package com.ifam.app
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.ComponentActivity
@@ -27,7 +26,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-
+import com.ifam.app.ui.theme.AppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
